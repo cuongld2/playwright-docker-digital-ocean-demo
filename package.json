@@ -1,7 +1,7 @@
 {
   "name": "playwright-docker",
   "version": "1.0.0",
-  "description": "Example to demonstrate how to use playwright to end-to-end testing and how to deploy the test using Docker",
+  "description": "A project for using playwright for end-to-end testing purpose with docker for deployment",
   "main": "index.js",
   "scripts": {
     "test": "playwright test --browser=all",

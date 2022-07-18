@@ -1,7 +1,7 @@
 import endpoint from "./configTypes"
 import { test, expect } from '@playwright/test'
 
-test("Expect to have 3 packages for subscription", async ({ page }) => {
+test("Expect to have 4 pricing options", async ({ page }) => {
 
   // Go to the Droplets product page of Digital Ocean web page
   await page.goto(endpoint.DIGITAL_OCEAN_URL);

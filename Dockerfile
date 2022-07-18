@@ -9,7 +9,7 @@ WORKDIR /app
 # Set environment path to node_modules/.bin
 ENV PATH /app/node_modules/.bin:$PATH
 # COPY the needed files to the app folder in docker image
-COPY package*.json /app/
+COPY package.json /app/
 COPY tests/ /app/tests/
 COPY tsconfig.json /app/
 COPY config.toml /app/
