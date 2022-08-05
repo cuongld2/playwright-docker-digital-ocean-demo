@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test'
 
 test("Expect to have 3 options for signing up", async ({ page }) => {
 
-  // Go to the Droplets product page of Digital Ocean web page
+  // Go to the Droplets product page of DigitalOcean web page
   await page.goto(endpoint.DIGITAL_OCEAN_URL);
 
   // Wait for the page to load
